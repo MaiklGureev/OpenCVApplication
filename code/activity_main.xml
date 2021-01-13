@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <org.opencv.android.JavaCamera2View
+        android:id="@ref/0x7f0800c0"
+        android:layout_width="-1"
+        android:layout_height="dimension(1)"
+        android:layout_weight="1112014848.000000"
+        opencv:camera_id="-1" />
+
+    <LinearLayout
+        android:orientation="1"
+        android:layout_width="-1"
+        android:layout_height="dimension(1)"
+        android:layout_weight="1112014848.000000">
+
+        <LinearLayout
+            android:orientation="0"
+            android:layout_width="-1"
+            android:layout_height="dimension(1)"
+            android:layout_weight="1073741824.000000">
+
+            <Button
+                android:textSize="dimension(2562)"
+                android:id="@ref/0x7f08005f"
+                android:visibility="2"
+                android:layout_width="dimension(1)"
+                android:layout_height="-1"
+                android:layout_margin="dimension(769)"
+                android:text="Red"
+                android:lines="1"
+                android:layout_weight="1065353216.000000" />
+
+            <Button
+                android:textSize="dimension(2562)"
+                android:id="@ref/0x7f08005c"
+                android:layout_width="dimension(1)"
+                android:layout_height="-1"
+                android:layout_margin="dimension(769)"
+                android:text="Green"
+                android:lines="1"
+                android:layout_weight="1065353216.000000" />
+
+            <Button
+                android:textSize="dimension(2562)"
+                android:id="@ref/0x7f080059"
+                android:layout_width="dimension(1)"
+                android:layout_height="-1"
+                android:layout_margin="dimension(769)"
+                android:text="Blue"
+                android:lines="1"
+                android:layout_weight="1065353216.000000" />
+
+            <Button
+                android:textSize="dimension(2562)"
+                android:id="@ref/0x7f08005a"
+                android:layout_width="dimension(1)"
+                android:layout_height="-1"
+                android:layout_margin="dimension(769)"
+                android:text="Circle"
+                android:lines="1"
+                android:layout_weight="1065353216.000000" />
+
+            <Button
+                android:textSize="dimension(2562)"
+                android:id="@ref/0x7f08005b"
+                android:layout_width="dimension(1)"
+                android:layout_height="-1"
+                android:layout_margin="dimension(769)"
+                android:text="Contours"
+                android:lines="1"
+                android:layout_weight="1065353216.000000" />
+
+            <Button
+                android:textSize="dimension(2562)"
+                android:id="@ref/0x7f08005d"
+                android:layout_width="dimension(1)"
+                android:layout_height="-1"
+                android:layout_margin="dimension(769)"
+                android:text="None"
+                android:lines="1"
+                android:layout_weight="1065353216.000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="-1"
+            android:layout_height="dimension(1)"
+            android:layout_weight="1084227584.000000">
+
+            <LinearLayout
+                android:orientation="1"
+                android:layout_width="-1"
+                android:layout_height="-1"
+                android:layout_weight="1065353216.000000">
+
+                <TextView
+                    android:textSize="dimension(3842)"
+                    android:gravity="0x11"
+                    android:id="@ref/0x7f080164"
+                    android:padding="dimension(1281)"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:text="H=255, S=255, V=255"
+                    android:lines="1"
+                    android:layout_weight="1065353216.000000" />
+
+                <SeekBar
+                    android:id="@ref/0x7f080129"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:max="180"
+                    android:layout_weight="1065353216.000000" />
+
+                <SeekBar
+                    android:id="@ref/0x7f08012a"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:max="255"
+                    android:layout_weight="1065353216.000000" />
+
+                <SeekBar
+                    android:id="@ref/0x7f08012b"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:max="255"
+                    android:layout_weight="1065353216.000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="1"
+                android:layout_width="-1"
+                android:layout_height="-1"
+                android:layout_weight="1065353216.000000">
+
+                <TextView
+                    android:textSize="dimension(3842)"
+                    android:gravity="0x11"
+                    android:id="@ref/0x7f080163"
+                    android:padding="dimension(1281)"
+                    android:layout_width="-1"
+                    android:layout_height="dimension(1)"
+                    android:text="H=255, S=255, V=255"
+                    android:lines="1"
+                    android:layout_weight="1065353216.000000" />
+
+                <SeekBar
+                    android:id="@ref/0x7f080126"
+                    android:layout_width="-1"
+                    android:layout_height="dimension(1)"
+                    android:max="180"
+                    android:layout_weight="1065353216.000000" />
+
+                <SeekBar
+                    android:id="@ref/0x7f080127"
+                    android:layout_width="-1"
+                    android:layout_height="dimension(1)"
+                    android:max="255"
+                    android:layout_weight="1065353216.000000" />
+
+                <SeekBar
+                    android:id="@ref/0x7f080128"
+                    android:layout_width="-1"
+                    android:layout_height="dimension(1)"
+                    android:max="255"
+                    android:layout_weight="1065353216.000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="-1"
+            android:layout_height="dimension(1)"
+            android:layout_weight="1084227584.000000">
+
+            <LinearLayout
+                android:orientation="1"
+                android:layout_width="-1"
+                android:layout_height="-1"
+                android:layout_weight="1065353216.000000">
+
+                <TextView
+                    android:textSize="dimension(3842)"
+                    android:gravity="0x11"
+                    android:id="@ref/0x7f080162"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:text="HoughCircles (dp,param_1,param_2)"
+                    android:lines="1"
+                    android:layout_weight="1065353216.000000" />
+
+                <SeekBar
+                    android:id="@ref/0x7f080125"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:max="100"
+                    android:progress="10"
+                    android:layout_weight="1065353216.000000"
+                    android:min="1" />
+
+                <SeekBar
+                    android:id="@ref/0x7f08012c"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:max="200"
+                    android:progress="12"
+                    android:layout_weight="1065353216.000000"
+                    android:min="1" />
+
+                <SeekBar
+                    android:id="@ref/0x7f08012d"
+                    android:layout_width="-1"
+                    android:layout_height="-1"
+                    android:max="200"
+                    android:progress="12"
+                    android:layout_weight="1065353216.000000"
+                    android:min="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
